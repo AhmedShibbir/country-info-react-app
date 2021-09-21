@@ -10,11 +10,13 @@ const Countries = () => {
         .then(data => setCountries(data))
     },[])
     return (
-        <div>
-            <h1>We have data of : {countries.length} countries!</h1>
-            {
-            countries.map(country => <SingleCountry country={country} key={country.alpha3Code}></SingleCountry>)
-            }
+        <div id="total-data">
+            <h1>We have data of total: {countries.length} countries!</h1>
+            <div className="countryCards">
+                {
+                    countries.map(country => <SingleCountry country={country} key={country.alpha3Code}></SingleCountry>)
+                }
+            </div>
         </div>
         
     );

@@ -1,0 +1,19 @@
+.singleCountry{
+    padding: 20px;
+    margin: 20px;
+    background: gray;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.singleCountry img{
+    width: 300px;
+}
+.singleCountry h1{
+    color: rgb(216, 247, 44)
+}
+.singleCountry h3{
+    color: rgb(245, 186, 108)
+}
+.singleCountry p{
+    color: rgb(209, 243, 237)
+}
