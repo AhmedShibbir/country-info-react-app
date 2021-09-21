@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className="header">
             <div>
-                <h1 title="Welcome to Country Hub!"><i class="fas fa-globe-asia App-logo"></i> Welcome to Country Hub!</h1>
+                <h1 title="Welcome to Country Hub!"><i className="fas fa-globe-asia App-logo"></i> Welcome to Country Hub!</h1>
             </div>
 
             <div>
