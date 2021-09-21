@@ -5,6 +5,10 @@
     color: whitesmoke;
     border-radius: 10px;
 }
+.singleCountry:hover{
+    box-shadow: 5px 5px rgb(228, 207, 170);
+    background: rgb(22, 170, 91);
+}
 .singleCountry img{
     width: 300px;
 }
