@@ -4,10 +4,12 @@
     background: gray;
     color: whitesmoke;
     border-radius: 10px;
+    border: 2px solid black;
 }
 .singleCountry:hover{
     box-shadow: 5px 5px rgb(228, 207, 170);
     background: rgb(22, 170, 91);
+    border: 2px solid yellow;
 }
 .singleCountry img{
     width: 300px;
